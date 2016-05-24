@@ -13,6 +13,6 @@ http.createServer(function(request, response) {
             "Content-Type": "text/plain"
         });
         response.end("");
-        console.log(request.url, content);
+        console.log(content);
     }).resume();
 }).listen(port);
